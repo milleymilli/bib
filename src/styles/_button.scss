@@ -1,0 +1,17 @@
+@import './config';
+ .App{
+    align-items: center;
+    background-color: aqua;
+}
+.btn{
+    align-items: center;
+    background-color: $thm-dark-gray;
+    color: $thm-text;
+    padding: .5rem 1rem;
+    border: none;
+    transition: background-color .5s ease-in-out;
+    &:hover{
+        background-color: $thm-light-gray;
+         color: #000000;
+    }
+}
